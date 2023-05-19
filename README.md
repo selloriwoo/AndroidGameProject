@@ -50,3 +50,6 @@
   
 <h3>-(Speed, Heal, Power)ItemSprite-</h3>
   기능이 같은 클래스들이며 아이템이 적이 죽은 위치를 기준으로 잡아줍니다. 또한 아이템의 움직임을 구현합니다.
+  
+<h1>Play Video (Click Image)</h1>
+[![Video Label](http://img.youtube.com/vi/tIr41V6YZfw/0.jpg)](https://www.youtube.com/shorts/tIr41V6YZfw)
