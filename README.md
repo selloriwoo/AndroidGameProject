@@ -7,7 +7,7 @@
 
 <h1>다이어그램 간략한 설명</h1><br />
   
-<h2>제일 처음 StartActivity가 실행 됩니다.</h2><br/>
+<h3>제일 처음 StartActivity가 실행 됩니다.</h3>
 <h3>-StartActivity-</h3>
   플레이어가 사용할 캐릭터를 선택합니다. 플레이어 선택후 시작 버튼 클릭시 MainActivity로 넘어가면서
   캐릭터 이미지를 넘겨줍니다.
