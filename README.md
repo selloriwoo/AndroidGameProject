@@ -5,7 +5,7 @@
 ![AndGameClassDiagram](https://github.com/selloriwoo/AndroidGameProject/assets/39435633/9dfaf9ee-2942-4133-bb40-dff9cab64050)
 
 
-<h1>다이어그램 간략한 설명 <br />
+<h1>다이어그램 간략한 설명</h1><br />
   
 제일 처음 StartActivity가 실행 됩니다.<br/>
 <h3>-StartActivity-</h3>
