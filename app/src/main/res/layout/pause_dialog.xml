@@ -118,13 +118,13 @@
                     android:layout_weight="1"/>
 
                 <RadioGroup
-                    android:id="@+id/effectScoundOnOff"
+                    android:id="@+id/effectSoundOnOff"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/effectScoundOff"
+                        android:id="@+id/effectSoundOff"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dp"
@@ -134,7 +134,7 @@
                         android:padding="10dp" />
 
                     <RadioButton
-                        android:id="@+id/effectScoundOn"
+                        android:id="@+id/effectSoundOn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dp"

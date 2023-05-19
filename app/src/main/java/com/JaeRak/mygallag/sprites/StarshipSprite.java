@@ -202,7 +202,7 @@ public class StarshipSprite extends Sprite{
             game.removeSprite(other);
         }
         if(other instanceof HealItemSprite){
-            //파워 아이템이면
+            //힐 아이템이면
             MainActivity.effectSound(MainActivity.PLAYER_GET_ITEM);
             game.removeSprite(other);
             heal();

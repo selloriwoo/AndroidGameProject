@@ -18,7 +18,7 @@ public class PauseDialog extends Dialog {
         super(context);
         setContentView(R.layout.pause_dialog); // pause_dialog.xml 구현
         bgMusicOnOff = findViewById(R.id.bgMusicOnOff);
-        effectSoundOnOff = findViewById(R.id.effectScoundOnOff);
+        effectSoundOnOff = findViewById(R.id.effectSoundOnOff);
         init();
     }
     public void init() {
@@ -27,10 +27,10 @@ public class PauseDialog extends Dialog {
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 switch (checkedId) {
                     case R.id.bgMusicOn:
-                        MainActivity.bgMusic.setVolume(1, 1);
+                        MainActivity.bgMusic.setVolume(1.0f, 1.0f);
                         break;
-                    case R.id.bgMusicOnOff:
-                        MainActivity.bgMusic.setVolume(0, 0);
+                    case R.id.bgMusicOff:
+                        MainActivity.bgMusic.setVolume(0.0f, 0.0f);
                         break;
                 }
             }
@@ -39,10 +39,10 @@ public class PauseDialog extends Dialog {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 switch (checkedId) {
-                    case R.id.effectScoundOn:
+                    case R.id.effectSoundOn:
                         MainActivity.effectVolumn=1.0f;
                         break;
-                    case R.id.effectScoundOff:
+                    case R.id.effectSoundOff:
                         MainActivity.effectVolumn=0;
                         break;
                 }

@@ -56,7 +56,7 @@ public class StartActivity extends AppCompatActivity {
     }
 
     private void init() {
-        findViewById(R.id.startBtn).setVisibility(View.INVISIBLE); //버튼 위치는 남겨두고 숨기기
+        findViewById(R.id.startBtn).setVisibility(View.GONE); //버튼 안 보이게 하기
         findViewById(R.id.startBtn).setEnabled(false); //선택 안되게 하기
         findViewById(R.id.startBtn).setOnClickListener(view -> {
             Intent intent = new Intent(StartActivity.this, MainActivity.class);
