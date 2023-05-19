@@ -26,7 +26,7 @@
   MainActivity에서 일시정지 버튼을 클릭하면 게임이 일시정되고 BGM과 효과음을 끄거나 다시 킬 수 있습니다.
   
 <h3>-SpaceInvadersView-</h3>
-  MainActivity에 레이아웃을 추가하여 작동하는 클래스 입니다. 게임의 시작과 종료를 구현해주었습니다. 적 캐릭터를 생성하여 적과 플레이어의 충돌을 처리해 줬습니다.
+  MainActivity에 레이아웃을 추가하여 작동하는 클래스 입니다. 게임의 시작과 종료를 구현해주었습니다. 적 캐릭터를 생성하여 적과 플레이어의 충돌을 감지하게 구현해 주었습니다.
 
 <h3>-ResultActivity-</h3>
   SpaceInvadersView의 score를 가져와 view에 점수를 보여준다. 처음으로 버튼을 클릭시 StartActivity로 이동합니다.
