@@ -33,7 +33,7 @@
   
 <h3>-Sprite-</h3>
   AlienSprite, StarshipSprite, AlienShotSprite, SpecialshotSprite, ShotSprite의 슈퍼 클래스 이며 캐릭터의 충돌과 이동을 구현하기 위한
-  캐릭터의 크기만큼 공간을 만들어 주었습니다.
+  캐릭터의 크기만큼 캐릭터 위치에 공간을 만들어 주었습니다.
   
 <h3>-AlienSprite-</h3>
   적 외계인을 구현하는 클래스 적의 이동을 구현하고 1초마다 적이 확률로 총을 발사하게 구현했습니다. 적이 죽으면 확률적으로
