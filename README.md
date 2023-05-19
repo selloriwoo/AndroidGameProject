@@ -29,7 +29,7 @@
   MainActivity에 레이아웃을 추가하여 작동하는 클래스 입니다. 게임의 시작과 종료를 구현해주었습니다. 적 캐릭터를 생성하여 적과 플레이어의 충돌을 감지하게 구현해 주었습니다.
 
 <h3>-ResultActivity-</h3>
-  SpaceInvadersView의 score를 가져와 view에 점수를 보여준다. 처음으로 버튼을 클릭시 StartActivity로 이동합니다.
+  SpaceInvadersView의 score를 가져와 view에 점수를 보여줍니다. 처음으로 버튼을 클릭시 StartActivity로 이동합니다.
   
 <h3>-Sprite-</h3>
   AlienSprite, StarshipSprite, AlienShotSprite, SpecialshotSprite, ShotSprite의 슈퍼 클래스 이며 캐릭터의 충돌과 이동을 구현하기 위한
