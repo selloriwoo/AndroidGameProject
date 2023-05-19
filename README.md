@@ -6,7 +6,8 @@
 
 
 
-제일 처음 StartActivity가 실행 됩니다.
+제일 처음 StartActivity가 실행 됩니다.<br/>
+
 
 <h1> ![initial]([https://user-images.githubusercontent.com/blahblah~~/.PNG](https://github.com/selloriwoo/AndroidGameProject/assets/39435633/9dfaf9ee-2942-4133-bb40-dff9cab64050))</h1>
 
