@@ -9,7 +9,7 @@
 제일 처음 StartActivity가 실행 됩니다.<br/>
 
 
-<h1> ![initial]([https://user-images.githubusercontent.com/blahblah~~/.PNG](https://github.com/selloriwoo/AndroidGameProject/assets/39435633/9dfaf9ee-2942-4133-bb40-dff9cab64050))</h1>
+![AndGameClassDiagram](https://github.com/selloriwoo/AndroidGameProject/assets/39435633/9dfaf9ee-2942-4133-bb40-dff9cab64050)
 
 -StartActivity-
   플레이어가 사용할 캐릭터를 선택합니다. 플레이어 선택후 시작 버튼 클릭시 MainActivity로 넘어가면서
