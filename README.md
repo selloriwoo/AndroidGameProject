@@ -53,4 +53,4 @@
   
 <h1>Play Video (Click Image)</h1>
 
-[![Video Label](http://img.youtube.com/vi/tIr41V6YZfw/0.jpg)](https://youtu.be/tIr41V6YZfw) 
+[![Video Label](https://github.com/selloriwoo/AndroidGameProject/assets/39435633/4520a06f-3bcf-46f2-bf50-8048ae55e4d6)](https://youtu.be/tIr41V6YZfw) 
