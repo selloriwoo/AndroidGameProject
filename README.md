@@ -53,4 +53,6 @@
   
 <h1>Play Video (Click Image)</h1>
 
+[![IMAGE ALT TEXT](https://github.com/selloriwoo/AndroidGameProject/assets/39435633/4520a06f-3bcf-46f2-bf50-8048ae55e4d6)](https://youtu.be/tIr41V6YZfw)
+
 [![Video Label](https://github.com/selloriwoo/AndroidGameProject/assets/39435633/4520a06f-3bcf-46f2-bf50-8048ae55e4d6)](https://youtu.be/tIr41V6YZfw) 
