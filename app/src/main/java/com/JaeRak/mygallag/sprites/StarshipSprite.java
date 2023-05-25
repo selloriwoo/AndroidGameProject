@@ -113,8 +113,8 @@ public class StarshipSprite extends Sprite{
             @Override
             public void run() {
                 bullets=30;
-                MainActivity.fireBtn.setEnabled(false);
-                MainActivity.reloadBtn.setEnabled(false);
+                MainActivity.fireBtn.setEnabled(true);
+                MainActivity.reloadBtn.setEnabled(true);
                 MainActivity.bulletCount.setText(bullets+"/30");
                 MainActivity.bulletCount.invalidate();  //화면새로고침
                 isReloading=false;

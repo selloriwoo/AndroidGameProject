@@ -26,4 +26,11 @@ public class ResultActivity extends AppCompatActivity {
         });
         ((TextView)findViewById(R.id.userFinalScoreText)).setText(getIntent().getIntExtra("score", 0)+"");
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(ResultActivity.this, StartActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }
