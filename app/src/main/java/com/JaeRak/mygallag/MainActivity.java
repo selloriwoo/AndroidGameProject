@@ -114,6 +114,12 @@ public class MainActivity extends AppCompatActivity {
     private void changeBgMusic() {
         bgMusic = MediaPlayer.create(this, bgMusicList.get(bgMusicIndex));
         bgMusic.start();
+        bgMusic.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mediaPlayer) {
+                changeBgMusic();
+            }
+        });
         bgMusicIndex++; //음악 바꾸기 위해 증가해 놓기
         bgMusicIndex = bgMusicIndex % bgMusicList.size(); //음악 개수만큼만 바뀌게 하기 위해
     }
